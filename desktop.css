@@ -1,0 +1,45 @@
+@media(min-width: 1200px){
+    header {
+        height: 8vh;
+        font-size: 1.6rem;
+    }
+    header picture {
+        position: absolute;
+        left: 9rem;
+        top: 0.7rem;
+        margin: 0 auto;
+    }
+    #club {
+        font-size: 2.2rem;
+        position: absolute;
+        left: 14.8rem;
+        top: 1rem;
+    }
+    #boca {
+        font-size: 2.2rem;
+        position: absolute;
+        left: 14.8rem;
+        top: 3.5rem;
+        font-weight: bolder;
+    }
+    .nav-ul {
+        position: absolute;
+        right: 10.5rem;
+        top: 2.7rem;
+    }
+    .main-div {
+        width: 30vw;
+        height: 62vh;
+    }
+    #intercontinental {
+        width: 40vw;
+    }
+    #libertadores {
+        width: 40vw;
+    }
+    #afa {
+        top: 52px;
+        left: 6px;
+        font-size: 1.4rem;
+    }
+}

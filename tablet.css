@@ -1,0 +1,45 @@
+@media(min-width: 600px){
+    header {
+        height: 7vh;
+        font-size: 1.5rem;
+    }
+    header picture {
+        position: absolute;
+        left: 0.5rem;
+        top: 0.5rem;
+    }
+    span {
+        color: white;
+        font-size: 2.1rem;
+    }
+    #club {
+        position: absolute;
+        left: 5.3rem;
+        top: 0.5rem;
+    }
+    #boca {
+        position: absolute;
+        left: 5.3rem;
+        top: 3rem;
+        font-weight: bolder;
+    }
+    .nav-ul {
+        position: absolute;
+        right: 0.5rem;
+        top: 1.9rem;
+    }
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-div {
+        width: 45vw;
+        height: 43vh;
+    }
+    #afa {
+        top: 26px;
+        left: 4px;
+        font-size: 1.3rem;
+    }
+}

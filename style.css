@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    height: 6vh;
+    background-color: rgb(16, 16, 165);
+    font-size: 1.4rem;
+    color: white;
+}
+header picture {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    left: 0.3rem;
+    top: 0.4rem;
+}
+span {
+    font-size: 0rem;
+}
+#club {
+    position: absolute;
+    left: 14.8rem;
+    top: 1rem;
+}
+#boca {
+    position: absolute;
+    left: 14.8rem;
+    top: 3.5rem;
+    font-weight: bolder;
+}
+.nav-ul {
+    position: absolute;
+    right: 0.5rem;
+    top: 1.6rem;
+}
+.nav-ul__item {
+    display: inline-block;
+}
+.nav-ul__item a:hover {
+    color: rgb(235, 235, 0);
+}
+.nav-ul a{
+    color: white;
+    text-decoration: none;
+}
+.nav-ul a::after {
+    content: " | ";
+}
+#socios::after {
+    content: none;
+}
+main {
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+}
+.main-div {
+    background-color: blue;
+    width: 75vw;
+    height: 35vh;
+    margin: 5% auto;
+    border: 5px solid rgb(255, 255, 0);
+    border-radius: 15px;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 0);
+}
+.main-div__item {
+    position: relative;
+    left: 4px;
+    top: 2px;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+h2, picture, .main-div__item--p {
+    display: flex;
+    justify-content: center;
+}
+picture {
+    position: relative;
+    top: 6%;
+}
+.main-div__item--p {
+    position: relative;
+    top: 14%;
+}
+#maradona {
+    position: relative;
+    top: 2%;
+}
+#afa {
+    position: relative;
+    top: 24px;
+    left: 8px;
+    font-size: 1.2rem;
+}
