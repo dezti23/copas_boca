@@ -3,9 +3,6 @@
     margin: 0%;
     padding: 0%;
 }
-#logo {
-    width: 34px;
-}
 html {
     font-size: 62.5%;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,7 +13,8 @@ header {
     font-size: 1.4rem;
     color: white;
 }
-header picture {
+header img {
+    width: 34px;
     display: flex;
     justify-content: flex-start;
     position: absolute;
