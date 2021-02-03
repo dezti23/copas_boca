@@ -3,6 +3,9 @@
         height: 8.2vh;
         font-size: 1.6rem;
     }
+    #logo {
+        width: 51px;
+    }
     header picture {
         position: absolute;
         left: 9rem;
