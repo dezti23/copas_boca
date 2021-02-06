@@ -43,4 +43,8 @@
         left: 6px;
         font-size: 1.4rem;
     }
+    #inter {
+        background-image: url("/img/intercontinentallarge.png");
+        background-repeat: no-repeat;
+    }
 }
